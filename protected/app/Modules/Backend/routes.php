@@ -2,8 +2,8 @@
 
 Route::group(['module'=>'Admin'], function(){
     
-    Route::get('/admin/welcome', function(){
-        echo "Welcome Quiz Admin";
+    Route::get('/admin/', function(){
+        return view('backend.index');
     });
     
 });
