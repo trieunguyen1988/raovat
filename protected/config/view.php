@@ -29,5 +29,9 @@ return [
     */
 
     'compiled' => realpath(storage_path('framework/views')),
+    'assets' => [
+        'backend' => 'public/backend/',
+        'frontend' => 'public/frontend/'
+    ]
 
 ];
